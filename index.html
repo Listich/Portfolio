@@ -1,31 +1,53 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <title>Portfolio de Listich</title>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width-device-width"/>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>
-  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css'>
-  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Poppins:wght@100;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap"rel="stylesheet'>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Portefolio de Listich</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-  <div class="scroll-up-btn">
-    <i class="fas fa-angle-up"></i>
-  </div>
-  <!--Header-->
-  <nav class="navbar">
-    <div class="max-width">
-      <div class="logo"><a href="#"><span>Listich</span><span>.com</span></a></div>
-      <ul class="menu">
-        <li><a href="#home" class="menu-btn"><strong>Home</strong></a></li>
-        <li><a href="#about" class="menu-btn"><strong>About</strong></a></li>
-        <li><a href="#projects" class="menu-btn"><strong>Projects</strong></a></li>
-        <li><a href="#contact" class="menu-btn"><strong>Contact</strong></a></li>
-      </ul>
-    </div>
-  </nav>
+  <header class="header">
+    <a href="#home" class="logo">Listich<span>_K</span></a>
 
+    <i class='bx bx-menu' id="menu-icon"></i>
+
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="Projet">Projet</a>
+      <a href="#contact">Contact </a>
+    </nav>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-content"></div>
+      <h1> Hi, It's<span> Listich</span></h1>
+      <h3 class="text-animation">I'm a</h3>
+      <p>Bonjour ! Je m'appelle Serena, et je suis étudiante en deuxième année à Epitech Toulouse. 🔭 Passionnée par l'apprentissage, 
+        je m'efforce d'accroître mes connaissances en C, Python, JavaScript, HTML et CSS pour élargir mes opportunités professionnelles. 🌟 Exploratrice de nouvelles technologies 🚀, 
+        j'aime également jouer à The Sims 4 pour me détendre! 😌</p>
+
+        <div class="social-icons">
+          <a href="#"></a>
+          <a href="#"></a>
+          <a href="#"></a>
+          <a href="#"></a>
+          <a href="#"></a>
+        </div>
+
+        <div class="btn-group">
+            <a href="#" class="btn">Hire</a>
+            <a href="#contact" class="btn">Contact</a>
+        </div>
+      </div>
+        <div class="home-img">
+          <img src="serena.png" alt="">
+        </div>
+  </section>
+
+  <script src="script.js"></script>
 </body>
-https://www.codewithfaraz.com/content/139/personal-portfolio-website-a-step-by-step-guide-with-html-css-and-javascript
+</html>
