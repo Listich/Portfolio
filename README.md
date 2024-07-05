@@ -1,6 +1,6 @@
 # Portfolio de Listich
 
-![Portfolio Screenshot](screenshot.png)
+![Portfolio Screenshot](portfolio.png)
 
 ## Overview
 
