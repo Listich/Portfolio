@@ -46,11 +46,6 @@ The contact section features a form where visitors can reach out to me. The form
 - HTML
 - CSS
 - JavaScript
-- Node.js
-- MySQL
-- C
-- Various libraries and frameworks (Boxicons, etc.)
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
