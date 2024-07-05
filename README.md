@@ -1,6 +1,6 @@
 # Portfolio de Listich
 
-![Portfolio Screenshot](portfolio.png)
+![Portfolio](https://github.com/Listich/Portfolio/assets/114687053/1cda7445-e0eb-4193-9b97-e839ebd3f64c)
 
 ## Overview
 
